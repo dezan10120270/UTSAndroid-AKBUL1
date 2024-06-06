@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/TextAppearance.App.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cek Kembali Isian Data"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Tes"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvJenisTesValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Terkonfirmasi"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvTanggalTerkonfirmasiValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIK"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvNikValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvNamaValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvTanggalLahirValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvJenisKelaminValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungan Dengan Anda"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvHubunganDenganAndaValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            style="@style/Widget.App.Button" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubah"
+            android:backgroundTint="@color/Gray"
+            android:textColor="@color/DarkGray" />
+    </LinearLayout>
+
+</RelativeLayout>

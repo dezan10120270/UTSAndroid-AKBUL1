@@ -1,0 +1,11 @@
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentDark">#388E3C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="buttonColor">#4CAF50</color>
+    <color name="DarkGray">#FF333333</color>
+    <color name="Gray">#FFC0C0C0</color>
+</resources>
